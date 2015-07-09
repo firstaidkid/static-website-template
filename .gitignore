@@ -16,7 +16,7 @@
 .yardoc
 .ftppass
 
-dist
+dest
 spec
 node_modules
 build
