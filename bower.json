@@ -1,0 +1,15 @@
+{
+  "name": "foundation",
+  "main": [
+    "src/scss/screen.scss",
+    "src/js/app.js"
+  ],
+  "ignore": [
+  ],
+  "dependencies": {
+    "modernizr": ">= 2.7.2"
+  },
+  "devDependencies": {
+  },
+  "private": true
+}

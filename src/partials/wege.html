@@ -1,0 +1,18 @@
+<section class="page" id="distance">
+    <div class="distances-container">
+        <ul class="distances">
+            <li ng-repeat="distance in distances" ng-class="distancesClasses(distances)">
+                <h1>{{ distance.title }}</h1>
+                <div class="business-segment">{{ distance.business_segment }}</div>
+                <div class="event">{{ distance.event }}</div>
+                <div class="media" ng-switch="distance.type">
+                    <img ng-switch-when="image" ng-src="{{ distance.image.url }}" width="{{ distance.image.width }}" height="{{ distance.image.height }}" alt=""/>
+                    <iframe ng-switch-when="video" width="493" height="319" ng-src="{{ distance.youtube_url }}" frameborder="0" class="youtube" allowfullscreen></iframe>
+                </div>
+                <div class="text" ng-bind-html-unsafe="distance.text|shy|links"></div>
+            </li>
+        </ul>
+    </div>
+    <span class="prev" ng-click="move(-1)"></span>
+    <span class="next" ng-click="move(1)"></span>
+</section>
