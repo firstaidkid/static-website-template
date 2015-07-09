@@ -29,17 +29,17 @@ Installing
 ----------
 **With NPM (recommended)**
 
-1. Install Node Packages with `NPM`
+Install Node Packages with `NPM`:
 ```
 npm install
 ```
 
-2. Install `SASS`
+Install `SASS`:
 ```
 sudo gem install sass
 ```
 
-3. Create a `.ftppass` with your FTP login data
+Create a `.ftppass` with your FTP login data:
 ```
 {
   "yourDomain.com": {
@@ -49,7 +49,7 @@ sudo gem install sass
 }
 ```
 
-4. Adjust ftp-settings in `Gruntfile.coffee`
+Adjust ftp-settings in `Gruntfile.coffee`:
 ```
 'ftp-deploy':
 	build:
@@ -65,17 +65,17 @@ sudo gem install sass
 Using the build
 ---------------
 
-Automated SASS and TypeScript building witch `grunt-watch`
+Automated SASS and TypeScript building witch `grunt-watch`:
 ```
 grunt watch
 ```
 
-Generate static website
+Generate static website:
 ```
 grunt
 ```
 
-Deploy to FTP
+Deploy to FTP:
 ```
 grunt deploy
 ```
