@@ -104,4 +104,4 @@ Folder Structure
 Author
 ------
 
-Created by **Steffen Kolb** ([steffenkolb.de)(http://www.steffenkolb.de)).
+Created by **Steffen Kolb** ([steffenkolb.de])(http://www.steffenkolb.de)).
