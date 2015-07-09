@@ -13,10 +13,15 @@ Prerequisites
 -------------
 
  **Node.js**: [nodejs.org](https://nodejs.org/)
+
  **NPM** (recommended): [npmjs.com](https://www.npmjs.com/) 
+
  **Grunt**: [gruntjs.com](http://gruntjs.com/getting-started)
+
  **SASS**: [sass-lang.com](http://sass-lang.com/install)
+
  **TypeScript**: [typescriptlang.org](http://www.typescriptlang.org/)
+
 
 
 
