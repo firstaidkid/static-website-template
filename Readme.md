@@ -85,7 +85,7 @@ Folder Structure
 ----------------
 
 ```
-+-- _build				// will contain all zipped dist-folder
++-- _build				// will contain all zipped dist-folders
 +-- _dist				// will containt files ready for deployment
 |	+-- _css
 |	+-- _images
